@@ -307,6 +307,53 @@ footer span { color: var(--accent); }
   .stat-row{ grid-template-columns:1fr 1fr; padding:0 1.5rem 3rem; }
   .projects-grid{ grid-template-columns:1fr; }
 }
+@media (max-width: 768px) {
+
+  /* HERO SECTION */
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+  }
+
+  .hero-bio {
+    font-size: 0.9rem;
+  }
+
+  /* NAV */
+  nav {
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.6rem;
+  }
+
+  /* TERMINAL BOX */
+  .hero-terminal {
+    display: none; /* hide on mobile */
+  }
+
+  /* STATS */
+  .stat-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ABOUT */
+  .about-inner {
+    grid-template-columns: 1fr;
+  }
+
+  /* PROJECTS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
 </style>
 </head>
 <body>
