@@ -352,6 +352,15 @@ footer span { color: var(--accent); }
   .projects-grid {
     grid-template-columns: 1fr;
   }
+  @media (max-width: 768px) {
+  * {
+    max-width: 100% !important;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
 
 }
 </style>
